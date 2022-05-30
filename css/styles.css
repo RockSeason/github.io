@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+body.home{
+    background-image: url('./../images/h.jpg');
+    background-repeat: no-repeat cover;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+.navbar {
+    font-family: 'Suez One', serif;
+}
+
+.black {
+    opacity: 0.6;
+    color: #000;
+    font-family: 'Suez One', serif;
+}
+
+h1 {   
+    font-family: 'Suez One', serif;
+    text-align: center;    
+}
+
+h2 {
+    font-family: 'Suez One', serif;
+    background-color: rgba(0,0,0,0.6);
+}
+
+h3 {
+    background-color: rgba(0,0,0,0.6);   
+}
+
+.h3 {
+    font-family: 'Merienda', cursive; 
+}
+
+.h4 {
+    font-family: 'Merienda', cursive;
+    background-color: rgba(62, 74, 82, 0.6); 
+    
+}
+
+.ombre {
+    margin: 0% 2%;
+    padding: 3%;
+    background-color: rgba(0,0,0,0.6); 
+    color: #fff;
+    font-family: 'Merienda', cursive;    
+}
+
+#contenu, .apropos{
+    margin: 0% 2%;
+    padding: 3%;  
+}
+
+img {
+    text-align: center;
+    padding: 2%;
+    position: inherit;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+.bttm3 {
+    position: relative;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    h1 {   
+        text-align: center;
+        font-size: 14px;    
+    }
+    
+    h2, h3 {
+        background-color: rgba(0,0,0,0.6);
+        font-size: 14px;    
+    }
+    
+    .h4 {
+        font-family: 'Merienda', cursive;
+        background-color: rgba(62, 74, 82, 0.6); 
+        font-size: 12px; 
+    }
+    
+    .ombre {
+        margin: 0% 1%;
+        padding: 3%;
+        background-color: rgba(0,0,0,0.6); 
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Merienda', cursive;    
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    h1 {   
+        text-align: center;
+        font-size: 14px;    
+    }
+    
+    h2, h3 {
+        background-color: rgba(0,0,0,0.6);
+        font-size: 14px;    
+    }
+    
+    .h4 {
+        font-family: 'Merienda', cursive;
+        background-color: rgba(62, 74, 82, 0.6); 
+        font-size: 12px; 
+    }
+    
+    .ombre {
+        margin: 0% 1%;
+        padding: 3%;
+        background-color: rgba(0,0,0,0.6); 
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Merienda', cursive;    
+    }
+  }
